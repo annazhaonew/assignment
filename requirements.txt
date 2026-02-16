@@ -1,0 +1,9 @@
+fastapi==0.114.2
+uvicorn==0.30.6
+openai==2.15.0
+azure-ai-documentintelligence==1.0.0b3
+python-dotenv==1.0.1
+python-multipart==0.0.9
+aiosqlite==0.20.0
+pydantic==2.9.2
+PyMuPDF==1.25.3

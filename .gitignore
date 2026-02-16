@@ -1,0 +1,42 @@
+# ─── Environment & secrets ───
+.env
+backend/.env
+
+# ─── Python ───
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ─── Node / Frontend ───
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# ─── Runtime data (generated per run) ───
+backend/data/app.db
+backend/data/runs/
+backend/data/parsed/
+backend/data/figures/
+backend/data/figure_descriptions/
+
+# ─── OS files ───
+.DS_Store
+Thumbs.db
+
+# ─── IDE ───
+.vscode/
+.idea/
+
+# ─── Dev artifacts (not needed in repo) ───
+analyze_pdf.py
+notes.txt
+purpose.md
+results/
+Candidate_assignment*.docx
+
+# ─── Misc ───
+*.log
